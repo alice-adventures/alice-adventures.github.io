@@ -9,6 +9,8 @@ hide:
 # WELCOME TO ALICE DOCUMENTATION
 *Adventures for Learning and Inspiring Coding Excellence*
 
+<br><br><br>
 
 !!! Warning
-    This site is sill under development.
+    This site is under development.
+    { style="font-size:1.5em" }
