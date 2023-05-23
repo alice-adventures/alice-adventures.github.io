@@ -17,11 +17,11 @@ image-tags:
 		if [ $$WIDTH -lt 4000 ]; then \
 			BASE=$$(basename $$d .png); \
 			PCT=$$(echo $$WIDTH/$$MAX_WIDTH*90 | bc -l); \
-			printf "![$$BASE]($$BASE-dark.png#only-dark){ witdh=\"%4.2f%%\" }\n" \
+			printf "![$$BASE]($$BASE-dark.png#only-dark){ width=\"%4.2f%%\" }\n" \
 				$$PCT; \
-			printf "![$$BASE]($$BASE-light.png#only-light){ witdh=\"%4.2f%%\" }\n" \
+			printf "![$$BASE]($$BASE-light.png#only-light){ width=\"%4.2f%%\" }\n" \
 				$$PCT; \
-			echo "<br>**Figure X** - *<CAPTION>*"; \
+			echo "<br><a name="Figure-X">__Figure X__</a> - _<CAPTION>_"; \
 			echo "{ .figure }"; \
 			echo; \
 		fi; \
