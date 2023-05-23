@@ -64,6 +64,7 @@ markdown_extensions:
   - admonition
   - attr_list
   - def_list
+  - footnotes
   - md_in_html
   - meta
   - toc:
@@ -90,7 +91,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.tilde
+  - pymdownx.critic
+  # - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  # - pymdownx.tilde
 
 extra_css:
   - https://fonts.googleapis.com/css?family=Oswald:300,300i,400,400i,500,500i
