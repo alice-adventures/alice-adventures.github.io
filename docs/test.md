@@ -3,12 +3,12 @@ hide:
   - footer
 ---
 
-![Alice](/img/Alice_Adventures-top-right-light.png#only-light){ .alice align=right .off-glb }
-![Alice](/img/Alice_Adventures-top-right-dark.png#only-dark){ .alice align=right .off-glb }
+![Alice](img/Alice_Adventures-top-right-light.png#only-light){ .alice align=right .off-glb }
+![Alice](img/Alice_Adventures-top-right-dark.png#only-dark){ .alice align=right .off-glb }
 
 # MKDOCS & MATERIAL <br>THEME TEST
 
-## Character 
+## Character
 
 ### Basic Markdown
 
@@ -75,7 +75,7 @@ And now jump to [Figure 1](#Figure-1)
 ### Admonitions
 
 #### Types
-  
+
 !!! Note "Note with custom title"
     Note
 
@@ -117,14 +117,14 @@ And now jump to [Figure 1](#Figure-1)
 === "Inline"
     !!! Example inline
         Example admonition put inline of another Quote admonition.
-    
+
     !!! Quote
         This is a regular Quote admonition.
 
         ```
         !!! Example inline
             Example admonition put inline of another Quote admonition.
-        
+
         !!! Quote
             This is a regular Quote admonition.
         ```
@@ -132,14 +132,14 @@ And now jump to [Figure 1](#Figure-1)
 === "Inline end"
     !!! Example inline end
         Example admonition put inline of another Quote admonition.
-    
+
     !!! Quote
         This is a regular Quote admonition.
-    
+
         ```
         !!! Example inline end
             Example admonition put inline of another Quote admonition.
-        
+
         !!! Quote
             This is a regular Quote admonition.
         ```
@@ -205,15 +205,15 @@ And now jump to [Figure 1](#Figure-1)
 
 ### Complete example
 
-![Alice_Adventures-top-right](/img/Alice_Adventures-top-right-dark.png#only-dark){ width="51.77%" }
-![Alice_Adventures-top-right](/img/Alice_Adventures-top-right-light.png#only-light){ width="51.77%" }
+![Alice_Adventures-top-right](img/Alice_Adventures-top-right-dark.png#only-dark){ width="51.77%" }
+![Alice_Adventures-top-right](img/Alice_Adventures-top-right-light.png#only-light){ width="51.77%" }
 <br><a name="Figure-1">__Figure 1__</a> - _Click the image in dark and light mode_
 { .figure }
 
 ### Without slide show
 
-![Alice_Adventures-top-right](/img/Alice_Adventures-top-right-dark.png#only-dark){ width="51.77%" .off-glb }
-![Alice_Adventures-top-right](/img/Alice_Adventures-top-right-light.png#only-light){ width="51.77%" .off-glb }
+![Alice_Adventures-top-right](img/Alice_Adventures-top-right-dark.png#only-dark){ width="51.77%" .off-glb }
+![Alice_Adventures-top-right](img/Alice_Adventures-top-right-light.png#only-light){ width="51.77%" .off-glb }
 <br><a name="Figure-2">__Figure 2__</a> - _Do not click the image_
 { .figure }
 

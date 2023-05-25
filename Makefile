@@ -1,9 +1,9 @@
-FIGURES = $(shell find docs/ -regex '.*-\(dark\|light\)\.png' | sed  -e 's:docs::' -e 's:-\(light\|dark\)\.png$$::' | uniq)
+FIGURES = $(shell find docs/ -regex '.*-\(dark\|light\)\.png' | sed  -e 's:docs/::' -e 's:-\(light\|dark\)\.png$$::' | uniq)
 
 image-tags:
 	@MAX_WIDTH=0; \
 	for d in $(FIGURES); do \
-		FILE=docs$${d}-dark.png; \
+		FILE=docs/$${d}-dark.png; \
 		WIDTH=$$(file $$FILE | cut -d' ' -f 5); \
 		if [ $$WIDTH -lt 4000 ]; then \
 			if [ $$MAX_WIDTH -lt $$WIDTH ]; then \
@@ -12,7 +12,7 @@ image-tags:
 		fi; \
 	done; \
 	for d in $(FIGURES); do \
-		FILE=docs$${d}-dark.png; \
+		FILE=docs/$${d}-dark.png; \
 		WIDTH=$$(file $$FILE | cut -d' ' -f 5); \
 		if [ $$WIDTH -lt 4000 ]; then \
 			BASE=$$(basename $$d .png); \
